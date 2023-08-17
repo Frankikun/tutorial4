@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.02" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.022" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="D:\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\DN\AppData\Local\Temp\surefire14250926049977762750\surefirebooter12145396542952193346.jar C:\Users\DN\AppData\Local\Temp\surefire14250926049977762750 2023-08-18T00-22-24_655-jvmRun1 surefire532914280963226695tmp surefire_013811511289740076500tmp"/>
+    <property name="sun.java.command" value="C:\Users\DN\AppData\Local\Temp\surefire14014629643322320035\surefirebooter17153044673754858991.jar C:\Users\DN\AppData\Local\Temp\surefire14014629643322320035 2023-08-18T00-48-27_645-jvmRun1 surefire2790869349744055358tmp surefire_06867706985936471471tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\桌面\159.251\新建文件夹\tutorial4\target\test-classes;D:\桌面\159.251\新建文件夹\tutorial4\target\classes;C:\Users\DN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\DN\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\DN\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\DN\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\DN\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\DN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\DN\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\DN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DN\AppData\Local\Temp\surefire14250926049977762750\surefirebooter12145396542952193346.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DN\AppData\Local\Temp\surefire14014629643322320035\surefirebooter17153044673754858991.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.007"/>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.009"/>
   <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.008">
     <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
 	at org.example.CalcTest.testSubtraction(CalcTest.java:15)
